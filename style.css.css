@@ -1,0 +1,101 @@
+.judul {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  justify-content: center;
+  animation: colorCycle 2s infinite;
+  text-align: center;
+}
+
+.judul img{
+  width: 55px;
+}
+
+.subjudul {
+  text-align: center;
+}
+
+@keyframes colorCycle {
+  0%   { color: red; }
+  25%  { color: orange; }
+  50%  { color: green; }
+  75%  { color: blue; }
+  100% { color: purple; }
+}
+
+body {
+  background-image: linear-gradient(90deg, rgba(166, 255, 0, 1) 0%, rgba(44, 162, 42, 1) 100%);
+}
+
+.containerkartu {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; 
+  gap: 5px; 
+  padding: 20px;
+}
+
+.fotoalbum {
+  aspect-ratio: 1 / 1;
+  object-fit:cover;
+  border-radius:8px;
+  display:block;
+  width: 100%;
+}
+
+.kartu1 {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+  text-align: center;
+}
+
+.kartu1 img{
+  width: 300px;
+}
+
+.kartu2 {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+  text-align: center;
+
+}
+
+.kartu2 img{
+  width: 300px;
+}
+
+.kartu3 {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+  text-align: center;
+
+}
+
+.kartu3 img{
+  width: 300px;
+}
+
+.kartu4 {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 15px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+  text-align: center;
+
+}
+
+.kartu4 img{
+  width: 250px;
+  height: 300px;
+}
+
